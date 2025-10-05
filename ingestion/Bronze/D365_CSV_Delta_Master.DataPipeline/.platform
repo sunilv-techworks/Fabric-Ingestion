@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "D365_CSV_Delta_Master"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9cf41697-72c8-adc0-4770-744584eb62ab"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "configdb_endPoint",
+      "note": "",
+      "type": "String",
+      "value": "m6hmogwbgd7ubovmhgwo3uydeu-xpukwzftgsne3oib6r5j5mzvti.datawarehouse.fabric.microsoft.com"
+    },
+    {
+      "name": "configdb_portNumber",
+      "note": "",
+      "type": "String",
+      "value": "1433"
+    },
+    {
+      "name": "configdb_table",
+      "note": "",
+      "type": "String",
+      "value": "dbConfiguration.config.tblConfiguration"
+    },
+    {
+      "name": "storage_account",
+      "note": "",
+      "type": "String",
+      "value": "stgtwdemo002"
+    },
+    {
+      "name": "asl_container",
+      "note": "",
+      "type": "String",
+      "value": "dataverse-twdemo002-unqba7b05a00b3af0119a43002248932"
+    }
+  ]
+}

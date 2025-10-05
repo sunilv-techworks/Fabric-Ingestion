@@ -1,0 +1,62 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "b2358fd4-44eb-8008-4d73-70baa12a4498",
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "parameters": {
+            "storage_account": {
+              "value": {
+                "value": "@pipeline().libraryVariables.storage_account",
+                "type": "Expression"
+              },
+              "type": "string"
+            },
+            "asl_container": {
+              "value": {
+                "value": "@pipeline().libraryVariables.asl_container",
+                "type": "Expression"
+              },
+              "type": "string"
+            },
+            "base_path": {
+              "value": {
+                "value": "@pipeline().libraryVariables.base_path",
+                "type": "Expression"
+              },
+              "type": "string"
+            }
+          }
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "D365_ASL_Enum_Conversion",
+        "dependsOn": []
+      }
+    ],
+    "libraryVariables": {
+      "storage_account": {
+        "type": "String",
+        "variableName": "storage_account",
+        "libraryName": "var_d365_delta_convers"
+      },
+      "asl_container": {
+        "type": "String",
+        "variableName": "asl_container",
+        "libraryName": "var_d365_delta_convers"
+      },
+      "base_path": {
+        "type": "String",
+        "variableName": "base_path",
+        "libraryName": "var_d365_constants"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/valueSet/1.0.0/schema.json",
+  "name": "Dev",
+  "variableOverrides": [
+    {
+      "name": "configdb_endPoint",
+      "value": "m6hmogwbgd7ubovmhgwo3uydeu-xpukwzftgsne3oib6r5j5mzvti.datawarehouse.fabric.microsoft.com"
+    }
+  ]
+}

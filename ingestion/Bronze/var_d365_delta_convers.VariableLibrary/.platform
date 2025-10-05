@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "VariableLibrary",
+    "displayName": "var_d365_delta_convers",
+    "description": ""
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "262a5789-8172-ab60-4002-31b36b13d7ac"
+  }
+}

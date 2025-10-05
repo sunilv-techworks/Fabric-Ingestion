@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "D365_ASL_Enum_Conversion"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7a39c48c-b092-97b5-46f9-63c5b557ee2f"
+  }
+}
